@@ -36,7 +36,7 @@ def test_auth(client):
     response = client.post('/auth', 
                            data=json.dumps(body),
                            content_type='application/json')
-    
+    print("Test is Running")
     assert response.status_code == 200
     token = response.json['token']
     assert token is not None
