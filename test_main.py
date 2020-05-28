@@ -29,6 +29,7 @@ def test_health(client):
 
 
 def test_auth(client):
+    # test method
     body = {'email': EMAIL,
             'password': PASSWORD}
     response = client.post('/auth', 
