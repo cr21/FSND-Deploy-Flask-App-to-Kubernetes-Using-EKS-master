@@ -1,0 +1,4 @@
+[
+  "test_main.py::test_health",
+  "test_main.py::test_auth"
+]
